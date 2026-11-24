@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBN INTERNET — Bangla Bazar Net | High-Speed Optical Fiber</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-gradient {
+            background: radial-gradient(circle at top right, #1e3a8a 0%, #0f172a 55%, #020617 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <span class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center shadow-lg shadow-blue-500/30 shrink-0">
+                        <i class="fa-solid fa-wifi text-white text-lg"></i>
+                    </span>
+                    <div class="leading-none">
+                        <span class="block text-white font-extrabold text-xl sm:text-2xl tracking-tight">
+                            BBN <span class="text-cyan-400">INTERNET</span>
+                        </span>
+                        <span class="block text-[11px] font-medium text-slate-400 tracking-wide mt-1">
+                            Bangla Bazar Net
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                    <a href="#home" class="hover:text-cyan-400 transition">Home</a>
+                    <a href="#about" class="hover:text-cyan-400 transition">About Us</a>
+                    <a href="#packages" class="hover:text-cyan-400 transition">Packages</a>
+                    <a href="#routers" class="hover:text-cyan-400 transition">Routers</a>
+                    <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="hidden md:flex items-center gap-4">
+                    <a href="#contact" class="px-5 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold shadow-lg shadow-blue-600/30 transition">
+                        Get Connected
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white focus:outline-none p-2">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-6 py-4 space-y-3">
+            <a href="#home" class="block text-slate-300 hover:text-cyan-400 font-medium py-1">Home</a>
+            <a href="#about" class="block text-slate-300 hover:text-cyan-400 font-medium py-1">About Us</a>
+            <a href="#packages" class="block text-slate-300 hover:text-cyan-400 font-medium py-1">Packages</a>
+            <a href="#routers" class="block text-slate-300 hover:text-cyan-400 font-medium py-1">Routers</a>
+            <a href="#contact" class="block text-slate-300 hover:text-cyan-400 font-medium py-1">Contact</a>
+            <a href="#contact" class="block text-center mt-2 px-5 py-2.5 rounded-full bg-blue-600 text-white font-semibold">Get Connected</a>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-gradient pt-32 pb-20 lg:pt-44 lg:pb-32 text-white relative overflow-hidden">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-10 right-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/20 text-cyan-300 text-xs font-semibold uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                        BBN INTERNET • Bangla Bazar Net
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        Blazing Fast Internet for <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Home & Business</span>
+                    </h1>
+
+                    <p class="text-slate-300 text-lg sm:text-xl max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Experience buffer-free 4K streaming, ultra-low ping gaming, and uninterrupted remote work with our reliable optical fiber broadband network.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#packages" class="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-xl shadow-blue-600/25 transition flex items-center justify-center gap-2">
+                            Explore Packages <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-full bg-slate-800/80 hover:bg-slate-800 border border-slate-700 text-white font-semibold transition text-center">
+                            Check Area Coverage
+                        </a>
+                    </div>
+
+                    <!-- Trust Metrics -->
+                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-slate-800/80 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-white">99.9%</p>
+                            <p class="text-xs sm:text-sm text-slate-400">Network Uptime</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-cyan-400">24/7</p>
+                            <p class="text-xs sm:text-sm text-slate-400">Local Tech Support</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-extrabold text-white">&lt;5ms</p>
+                            <p class="text-xs sm:text-sm text-slate-400">Gaming Latency</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Feature Card -->
+                <div class="lg:col-span-5">
+                    <div class="glass-card rounded-3xl p-6 sm:p-8 shadow-2xl relative">
+                        <div class="flex items-center justify-between mb-6">
+                            <div>
+                                <span class="text-xs uppercase tracking-wider text-cyan-400 font-bold">Live Network Status</span>
+                                <h3 class="text-xl font-bold text-white mt-0.5">Bangla Bazar Net Core</h3>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold flex items-center gap-1.5">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Optimal
+                            </span>
+                        </div>
+
+                        <div class="bg-slate-900/90 rounded-2xl p-6 border border-slate-800 text-center mb-6">
+                            <p class="text-slate-400 text-xs uppercase tracking-widest mb-1">Top Package Speed</p>
+                            <div class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                                100 <span class="text-xl text-slate-300">Mbps</span>
+                            </div>
+                            <div class="w-full bg-slate-800 h-2.5 rounded-full mt-4 overflow-hidden">
+                                <div class="bg-gradient-to-r from-blue-500 to-cyan-400 h-full rounded-full w-11/12"></div>
+                            </div>
+                            <div class="flex justify-between text-xs text-slate-400 mt-3">
+                                <span><i class="fa-solid fa-server text-cyan-400 mr-1"></i> BDIX Peering Active</span>
+                                <span><i class="fa-solid fa-shield-halved text-blue-400 mr-1"></i> Real IP Available</span>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-300">
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400"></i>
+                                <span>Bufferless YouTube & Facebook Cache Servers</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400"></i>
+                                <span>Fast Optical Fiber Home Installation</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-cyan-400"></i>
+                                <span>Dedicated BDIX & FTP Media Server Access</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT US SECTION ==================== -->
+    <section id="about" class="py-20 lg:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-14 items-center">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                        <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">End-to-End Fiber</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Direct optical fiber connectivity using enterprise network equipment for stable signal quality.
+                        </p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition sm:translate-y-6">
+                        <div class="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-600 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Rapid Field Support</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Our local splicing and technical maintenance team resolves line issues quickly and reliably.
+                        </p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition">
+                        <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Low-Ping Routing</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Optimized international gateways for online gaming, live streaming, and smooth video calls.
+                        </p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-lg transition sm:translate-y-6">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Power-Backup Nodes</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Our distribution boxes and core network nodes run on backup power for steady uptime.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <span class="text-blue-600 font-bold text-sm uppercase tracking-wider">About BBN INTERNET</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
+                        Connecting Bangla Bazar & Surrounding Areas with Reliable Fiber
+                    </h2>
+                    <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+                        <strong>BBN INTERNET</strong> (operating locally as <strong>Bangla Bazar Net</strong>) delivers dependable high-speed broadband directly to homes, shops, and offices. We focus on consistent speeds, responsive local support, and fair monthly pricing.
+                    </p>
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Whether you are streaming 4K videos, attending online classes, or running a business, our packages are built for smooth everyday performance.
+                    </p>
+
+                    <div class="pt-4 flex flex-wrap gap-6">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <span class="font-semibold text-slate-800">Unlimited Monthly Usage</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <span class="font-semibold text-slate-800">Transparent Pricing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PACKAGES SECTION ==================== -->
+    <section id="packages" class="py-20 lg:py-28 bg-slate-50 border-t border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 font-bold text-sm uppercase tracking-wider">BBN INTERNET • Bangla Bazar Net</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">
+                    Monthly Internet Packages
+                </h2>
+                <p class="text-slate-600 mt-3 text-base sm:text-lg">
+                    All packages include unlimited data, high-speed BDIX & cache access, and local technical support.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Plan 1: 700tk 45Mb -->
+                <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">Package 01</span>
+                            <i class="fa-solid fa-paper-plane text-slate-400"></i>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-slate-900">45 Mb</h3>
+                        <p class="text-slate-500 text-sm mt-1">Smooth browsing, HD video & family use</p>
+
+                        <div class="my-6 pb-6 border-b border-slate-100">
+                            <span class="text-4xl font-extrabold text-slate-900">৳700</span>
+                            <span class="text-slate-500 text-sm font-medium">/ month</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> 45 Mb Speed</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Unlimited Data Usage</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> High-Speed BDIX & FTP</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Local Support Included</li>
+                        </ul>
+                    </div>
+                    <button onclick="selectPackage('45 Mb (৳700/mo)', 'Home Broadband')" class="w-full py-3 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-semibold transition">
+                        Select Package
+                    </button>
+                </div>
+
+                <!-- Plan 2: 800tk 60Mb -->
+                <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold">Package 02</span>
+                            <i class="fa-solid fa-house-signal text-blue-500"></i>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-slate-900">60 Mb</h3>
+                        <p class="text-slate-500 text-sm mt-1">Great for Smart TV, work & multi-device use</p>
+
+                        <div class="my-6 pb-6 border-b border-slate-100">
+                            <span class="text-4xl font-extrabold text-slate-900">৳800</span>
+                            <span class="text-slate-500 text-sm font-medium">/ month</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> 60 Mb Speed</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Unlimited Data Usage</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Smooth HD & 4K Streaming</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Low Ping Gaming Route</li>
+                        </ul>
+                    </div>
+                    <button onclick="selectPackage('60 Mb (৳800/mo)', 'Home Broadband')" class="w-full py-3 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-semibold transition">
+                        Select Package
+                    </button>
+                </div>
+
+                <!-- Plan 3: 1000tk 80Mb (Popular Highlighted) -->
+                <div class="bg-slate-900 text-white rounded-3xl p-7 border-2 border-cyan-400 shadow-2xl relative flex flex-col justify-between lg:-translate-y-3">
+                    <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-600 to-cyan-400 text-white text-xs font-extrabold uppercase tracking-wider px-4 py-1 rounded-full shadow">
+                        Most Popular
+                    </div>
+                    <div>
+                        <div class="flex items-center justify-between mb-4 mt-1">
+                            <span class="px-3 py-1 rounded-full bg-cyan-400/10 text-cyan-300 text-xs font-bold">Package 03</span>
+                            <i class="fa-solid fa-fire text-cyan-400"></i>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-white">80 Mb</h3>
+                        <p class="text-slate-400 text-sm mt-1">Heavy streaming, gaming & busy households</p>
+
+                        <div class="my-6 pb-6 border-b border-slate-800">
+                            <span class="text-4xl font-extrabold text-white">৳1,000</span>
+                            <span class="text-slate-400 text-sm font-medium">/ month</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-cyan-400"></i> 80 Mb Speed</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-cyan-400"></i> Unlimited Data Usage</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-cyan-400"></i> Ultra-Fast BDIX & Cache</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-cyan-400"></i> Priority Support</li>
+                        </ul>
+                    </div>
+                    <button onclick="selectPackage('80 Mb (৳1,000/mo)', 'Home Broadband')" class="w-full py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold shadow-lg shadow-cyan-500/20 transition">
+                        Select Package
+                    </button>
+                </div>
+
+                <!-- Plan 4: 1250tk 100Mb -->
+                <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-sm hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 text-xs font-bold">Package 04</span>
+                            <i class="fa-solid fa-rocket text-indigo-500"></i>
+                        </div>
+                        <h3 class="text-3xl font-extrabold text-slate-900">100 Mb</h3>
+                        <p class="text-slate-500 text-sm mt-1">Maximum speed for offices, shops & power users</p>
+
+                        <div class="my-6 pb-6 border-b border-slate-100">
+                            <span class="text-4xl font-extrabold text-slate-900">৳1,250</span>
+                            <span class="text-slate-500 text-sm font-medium">/ month</span>
+                        </div>
+
+                        <ul class="space-y-3 text-sm text-slate-600 mb-8">
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> 100 Mb Speed</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Unlimited Data Usage</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Peak BDIX & Media Access</li>
+                            <li class="flex items-center gap-2.5"><i class="fa-solid fa-check text-blue-600"></i> Dedicated Support</li>
+                        </ul>
+                    </div>
+                    <button onclick="selectPackage('100 Mb (৳1,250/mo)', 'Corporate / Shop SME')" class="w-full py-3 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-semibold transition">
+                        Select Package
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ROUTERS SECTION (NO ONU) ==================== -->
+    <section id="routers" class="py-20 lg:py-28 bg-white border-t border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-4">
+                <div>
+                    <span class="text-blue-600 font-bold text-sm uppercase tracking-wider">Recommended Hardware</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">
+                        High-Performance Wi-Fi Routers
+                    </h2>
+                </div>
+                <p class="text-slate-600 max-w-md text-sm sm:text-base">
+                    Get an original router pre-configured by our team so you can enjoy full speed across your home or office.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Router 1: TP-Link Deco M4 (4,500tk) -->
+                <div class="rounded-3xl border border-slate-200 bg-slate-50/70 p-7 hover:bg-white hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="h-52 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-4 mb-6 relative overflow-hidden">
+                            <img src="deco-m4.png" alt="TP-Link Deco M4" class="max-h-44 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="hidden flex-col items-center justify-center text-slate-700">
+                                <i class="fa-solid fa-tower-broadcast text-5xl text-cyan-500 mb-2"></i>
+                                <span class="text-xs font-mono">AC1200 Whole Home Mesh</span>
+                            </div>
+                            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-slate-900 text-white text-xs font-semibold">Mesh Wi-Fi</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">TP-Link Deco M4 (1-Pack)</h3>
+                        <p class="text-slate-500 text-sm mt-1">AC1200 Whole Home Mesh Wi-Fi unit—eliminates dead zones with up to 1,500 sq.ft. coverage[cite: 1].</p>
+                        
+                        <div class="flex flex-wrap gap-2 my-4">
+                            <span class="px-2.5 py-1 bg-slate-200/70 text-slate-700 rounded-md text-xs font-medium">AC1200 Dual-Band[cite: 1]</span>
+                            <span class="px-2.5 py-1 bg-slate-200/70 text-slate-700 rounded-md text-xs font-medium">1,500 sq.ft Coverage[cite: 1]</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-200">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Router Price</span>
+                            <span class="text-2xl font-extrabold text-slate-900">৳4,500</span>
+                        </div>
+                        <button onclick="selectPackage('Router Order: TP-Link Deco M4 (৳4,500)', 'Router / Hardware Purchase')" class="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition">
+                            Order Router
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Router 2: TP-Link Archer C6 V4 (3,300tk) -->
+                <div class="rounded-3xl border-2 border-blue-600 bg-white p-7 shadow-xl relative flex flex-col justify-between">
+                    <div>
+                        <span class="absolute top-4 right-4 z-10 px-3 py-1 rounded-full bg-blue-600 text-white text-xs font-bold">Popular Choice</span>
+                        <div class="h-52 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-4 mb-6 relative overflow-hidden">
+                            <img src="c6-v4.png" alt="TP-Link Archer C6 V4" class="max-h-44 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="hidden flex-col items-center justify-center text-slate-700">
+                                <i class="fa-solid fa-wifi text-5xl text-blue-600 mb-2"></i>
+                                <span class="text-xs font-mono">AC1200 Dual-Band Gigabit</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">TP-Link Archer C6 V4</h3>
+                        <p class="text-slate-500 text-sm mt-1">AC1200 Dual-Band Gigabit Wi-Fi router with 4 high-gain antennas for lag-free 4K streaming & gaming[cite: 2].</p>
+                        
+                        <div class="flex flex-wrap gap-2 my-4">
+                            <span class="px-2.5 py-1 bg-blue-50 text-blue-700 rounded-md text-xs font-medium">4x Antennas[cite: 2]</span>
+                            <span class="px-2.5 py-1 bg-blue-50 text-blue-700 rounded-md text-xs font-medium">Full Gigabit Ports</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-200">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Router Price</span>
+                            <span class="text-2xl font-extrabold text-slate-900">৳3,300</span>
+                        </div>
+                        <button onclick="selectPackage('Router Order: TP-Link Archer C6 V4 (৳3,300)', 'Router / Hardware Purchase')" class="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition">
+                            Order Router
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Router 3: Tenda TX2L Pro (3,500tk) -->
+                <div class="rounded-3xl border border-slate-200 bg-slate-50/70 p-7 hover:bg-white hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="h-52 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-4 mb-6 relative overflow-hidden">
+                            <img src="tx2l-pro.png" alt="Tenda TX2L Pro" class="max-h-44 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="hidden flex-col items-center justify-center text-slate-700">
+                                <i class="fa-solid fa-router text-5xl text-emerald-500 mb-2"></i>
+                                <span class="text-xs font-mono">AX1500 Wi-Fi 6 Gigabit</span>
+                            </div>
+                            <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-emerald-600 text-white text-xs font-semibold">Wi-Fi 6</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">Tenda TX2L Pro</h3>
+                        <p class="text-slate-500 text-sm mt-1">AX1500 Dual-Band Gigabit Wi-Fi 6 router with 5 high-gain antennas for strong wall penetration and multi-device speed[cite: 3].</p>
+                        
+                        <div class="flex flex-wrap gap-2 my-4">
+                            <span class="px-2.5 py-1 bg-slate-200/70 text-slate-700 rounded-md text-xs font-medium">5x Antennas[cite: 3]</span>
+                            <span class="px-2.5 py-1 bg-slate-200/70 text-slate-700 rounded-md text-xs font-medium">AX1500 Wi-Fi 6</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center justify-between pt-4 border-t border-slate-200">
+                        <div>
+                            <span class="text-xs text-slate-400 block">Router Price</span>
+                            <span class="text-2xl font-extrabold text-slate-900">৳3,500</span>
+                        </div>
+                        <button onclick="selectPackage('Router Order: Tenda TX2L Pro (৳3,500)', 'Router / Hardware Purchase')" class="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition">
+                            Order Router
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="py-20 lg:py-28 bg-slate-950 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12">
+                <!-- Left Contact Info -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-cyan-400 font-bold text-sm uppercase tracking-wider">BBN INTERNET • Bangla Bazar Net</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold leading-tight">
+                        Request a New Connection or Free Consultation
+                    </h2>
+                    <p class="text-slate-400 leading-relaxed">
+                        Fill out the form with your address and preferred package. Clicking submit will send your details directly to our WhatsApp desk.
+                    </p>
+
+                    <div class="space-y-5 pt-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 text-cyan-400 flex items-center justify-center shrink-0 text-lg">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white">24/7 Support & Sales Hotline</h4>
+                                <p id="display-hotline" class="text-slate-400 text-sm mt-0.5">+880 1700-000000 / +880 1800-000000</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 text-cyan-400 flex items-center justify-center shrink-0 text-lg">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white">Service Area & Office</h4>
+                                <p id="display-address" class="text-slate-400 text-sm mt-0.5">Bangla Bazar, Balaganj, Sylhet</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-emerald-600/20 border border-emerald-500/30 text-emerald-400 flex items-center justify-center shrink-0 text-lg">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white">Instant WhatsApp Desk</h4>
+                                <p class="text-slate-400 text-sm mt-0.5">Direct Connection & Billing Assistance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Form -->
+                <div class="lg:col-span-7">
+                    <form id="connection-form" class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl space-y-5">
+                        <div class="grid sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-300 mb-2">Full Name *</label>
+                                <input id="cust-name" type="text" required placeholder="e.g. Rahim Uddin" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-300 mb-2">Phone Number *</label>
+                                <input id="cust-phone" type="tel" required placeholder="e.g. 017XX-XXXXXX" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition">
+                            </div>
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-300 mb-2">Selected Package / Router *</label>
+                                <input id="selected-package-input" type="text" required value="80 Mb (৳1,000/mo)" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-cyan-300 font-medium focus:outline-none focus:border-cyan-400 transition">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-300 mb-2">Connection Type</label>
+                                <select id="conn-type" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-cyan-400 transition">
+                                    <option value="Home Broadband">Home Broadband</option>
+                                    <option value="Corporate / Shop SME">Corporate / Shop SME</option>
+                                    <option value="Router / Hardware Purchase">Router / Hardware Purchase</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Full Installation Address *</label>
+                            <textarea id="cust-address" rows="3" required placeholder="House/Holding No, Village/Road, Bangla Bazar / Area..." class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 transition"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white font-bold text-base shadow-lg shadow-emerald-600/25 transition flex items-center justify-center gap-2.5">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> Send Request via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-slate-950 border-t border-slate-900 py-10 text-slate-400 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="leading-none">
+                <span class="block text-white font-bold text-lg">BBN INTERNET</span>
+                <span class="block text-xs text-slate-500 mt-1">Bangla Bazar Net</span>
+            </div>
+            <p>&copy; 2026 BBN INTERNET (Bangla Bazar Net). All rights reserved.</p>
+            <div class="flex items-center gap-5 text-lg">
+                <a id="footer-fb-link" href="#" target="_blank" class="hover:text-cyan-400 transition"><i class="fa-brands fa-facebook"></i></a>
+                <a id="footer-wa-link" href="#" target="_blank" class="hover:text-cyan-400 transition"><i class="fa-brands fa-whatsapp"></i></a>
+                <a id="footer-yt-link" href="#" target="_blank" class="hover:text-cyan-400 transition"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // ১. এখানে আপনার নিজের ব্যবসা ও যোগাযোগের তথ্য বসান
+        const BUSINESS_INFO = {
+            whatsappNumber: "8801700000000",          // 88 সহ নম্বর (কোনো + বা স্পেস দেবেন না)
+            hotlineDisplay: "+880 1700-000000 / +880 1800-000000",
+            officeAddress: "Bangla Bazar, Balaganj, Sylhet",
+            facebookUrl: "https://facebook.com/",       // আপনার ফেসবুক পেজের লিংক দিন
+            youtubeUrl: "#"                             // আপনার ইউটিউব লিংক থাকলে দিন
+        };
+
+        // পেজে হটলাইন, ঠিকানা এবং সোশ্যাল লিংক স্বয়ংক্রিয়ভাবে বসানো
+        document.getElementById('display-hotline').textContent = BUSINESS_INFO.hotlineDisplay;
+        document.getElementById('display-address').textContent = BUSINESS_INFO.officeAddress;
+        document.getElementById('footer-fb-link').href = BUSINESS_INFO.facebookUrl;
+        document.getElementById('footer-wa-link').href = `https://wa.me/${BUSINESS_INFO.whatsappNumber}`;
+        document.getElementById('footer-yt-link').href = BUSINESS_INFO.youtubeUrl;
+
+        // Toggle Mobile Menu
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Auto-fill package/router and connection type into the Contact form
+        function selectPackage(itemName, typeName) {
+            const input = document.getElementById('selected-package-input');
+            const typeSelect = document.getElementById('conn-type');
+            
+            input.value = itemName;
+            if (typeName) {
+                typeSelect.value = typeName;
+            }
+            
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            input.focus();
+        }
+
+        // Send Form Data Directly to WhatsApp
+        document.getElementById('connection-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('cust-name').value.trim();
+            const phone = document.getElementById('cust-phone').value.trim();
+            const selectedItem = document.getElementById('selected-package-input').value.trim();
+            const connType = document.getElementById('conn-type').value;
+            const address = document.getElementById('cust-address').value.trim();
+
+            const message = `*BBN INTERNET (Bangla Bazar Net) - Connection Request*%0A` +
+                            `------------------------------------%0A` +
+                            `*Name:* ${encodeURIComponent(name)}%0A` +
+                            `*Phone:* ${encodeURIComponent(phone)}%0A` +
+                            `*Type:* ${encodeURIComponent(connType)}%0A` +
+                            `*Package/Item:* ${encodeURIComponent(selectedItem)}%0A` +
+                            `*Address:* ${encodeURIComponent(address)}`;
+
+            const whatsappURL = `https://wa.me/${BUSINESS_INFO.whatsappNumber}?text=${message}`;
+            window.open(whatsappURL, '_blank');
+        });
+    </script>
+</body>
+</html>
